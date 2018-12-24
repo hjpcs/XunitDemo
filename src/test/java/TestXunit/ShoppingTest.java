@@ -17,20 +17,20 @@ public class ShoppingTest {
     Login login = new Login();
     Shopping shopping = new Shopping();
 
-//    @BeforeClass
-//    public void beforeMethod(){
-//
-//        login.userLogin("zhangsan","123456");
-//    }
+    @BeforeClass
+    public void beforeMethod(){
 
-    @Test(dataProvider = "getProPrice",dataProviderClass = DataParams.class, dependsOnMethods = "LoginTest.testLogin")
+        login.userLogin("zhangsan","123456");
+    }
+
+    @Test(dataProvider = "getProPrice",dataProviderClass = DataParams.class)
     public void testGetPrice(int proId, int expect){
         int price = shopping.getPrice(proId);
         Assert.assertEquals(price,expect);
     }
 
-//    @AfterClass
-//    public void AfterMethod(){
-//        login.userLogin("","");
-//    }
+    @AfterClass
+    public void AfterMethod(){
+        login.userLogin("","");
+    }
 }

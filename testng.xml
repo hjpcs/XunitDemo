@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="1" preserve-order="true" name="/Users/qitmac000442/Project/projects/xunit/testng/XunitDemo">
+    <test verbose="1" preserve-order="true" name="XunitDemo">
         <classes>
             <class name="TestXunit.LoginTest">
                 <methods>
@@ -9,9 +9,9 @@
                 </methods>
             </class>
 
-            <class name="TestXunit.ShoppingTest">
+            <class name="TestXunit.ShoppingTest" >
                 <methods>
-                    <include name="testGetPrice"></include>
+                    <include name="testGetPrice" ></include>
                 </methods>
             </class>
         </classes>
