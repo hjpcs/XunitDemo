@@ -5,11 +5,7 @@ import LoginData.LoginParams;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-/**
- * Created by duzhe on 2018/12/23.
- *
- * @Description:
- */
+
 public class LoginTest {
 
     @Test(dataProvider = "getUsers", dataProviderClass = LoginParams.class)

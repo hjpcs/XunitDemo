@@ -6,11 +6,7 @@ import LoginData.DataParams;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-/**
- * Created by duzhe on 2018/12/23.
- *
- * @Description:
- */
+
 public class ShoppingTest {
 
 
