@@ -16,7 +16,9 @@ public class DataParams {
         return new Object[][]{
                 {1,200},
                 {0,-1},
-                {3,80}
+                {3,80},
+                {4,-1},
+                {2,120}
         };
     }
 

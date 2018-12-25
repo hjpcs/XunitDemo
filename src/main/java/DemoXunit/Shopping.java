@@ -17,7 +17,7 @@ public class Shopping {
      */
     public int getPrice(int proId){
         if(login.isLogin == true){
-            if (proId <= 0 ){ //1
+            if (proId <= 0 || proId > 3){ //1
                 return -1;
             }else{
                 Products p= Products.getPro(proId);
@@ -61,7 +61,7 @@ public class Shopping {
     public Products getPro(int proId){
 
 
-            if (proId <= 0) {
+            if (proId <= 0 || proId > 3) {
 
                 return null;
             } else {

@@ -3,15 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="1" preserve-order="true" name="XunitDemo">
         <classes>
-            <class name="TestXunit.LoginTest">
+            <class name="TestXunit.BuyTest" >
                 <methods>
-                    <include name="testLogin"></include>
-                </methods>
-            </class>
-
-            <class name="TestXunit.ShoppingTest" >
-                <methods>
-                    <include name="testGetPrice" ></include>
+                    <include name="testBuy" ></include>
                 </methods>
             </class>
         </classes>
@@ -23,26 +17,3 @@
 
 
 
-
-
-<!--<classes>-->
-<!--<class name="DemoXunit.LoginTest">-->
-    <!--<methods>-->
-        <!--<include name="testLogin"/>-->
-    <!--</methods>-->
-<!--</class>-->
-<!--<class name="DemoXunit.ShoppingTest">-->
-    <!--<methods>-->
-        <!--<include name="testLogin"/>-->
-        <!--<include name="testLoginAndShopping"/>-->
-        <!--<include name="testDatas"/>-->
-    <!--</methods>-->
-<!--</class>-->
-<!--<class name="DemoXunit.ParamDataTest">-->
-    <!--<methods>-->
-        <!--<parameter name="aa" value="AA"/>-->
-        <!--<parameter name="bb" value="BB"/>-->
-        <!--<include name="testParams"/>-->
-    <!--</methods>-->
-<!--</class>-->
-<!--</classes>-->
